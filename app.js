@@ -14,6 +14,12 @@ app.get('/', (req, res) => {
 
 })
 
+// path "launchx" => Respondiendo texto
+app.get('/launchx', (req, res) => {
+    res.send('Bienvenido a LaunchX')
+})
+
+
 // Inicializamos la app
 app.listen(port, () => {
     console.log(`Servidor activo en el puerto: ${port}`)
