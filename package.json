@@ -1,0 +1,19 @@
+{
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo-solis/express_basic.git"
+  },
+  "author": "eduardo-solis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardo-solis/express_basic/issues"
+  },
+  "homepage": "https://github.com/eduardo-solis/express_basic#readme"
+}
