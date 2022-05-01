@@ -21,9 +21,16 @@ app.get('/launchx', (req, res) => {
 
 // path "explorer" => regresa un objeto
 app.get('/explorers', (req, res) => {
+    
     const explorer = { id: 1, name : 'Explorer', msg : 'Hello' }
-
     res.send(explorer)
+
+})
+
+// path "explorerName" => resive Query Params
+app.get('/explorers/:explorerName', (req, res) => {
+
+    res.send(req.params)
 
 })
 
