@@ -19,6 +19,14 @@ app.get('/launchx', (req, res) => {
     res.send('Bienvenido a LaunchX')
 })
 
+// path "explorer" => regresa un objeto
+app.get('/explorers', (req, res) => {
+    const explorer = { id: 1, name : 'Explorer', msg : 'Hello' }
+
+    res.send(explorer)
+
+})
+
 
 // Inicializamos la app
 app.listen(port, () => {
